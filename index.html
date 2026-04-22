@@ -5,40 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Broach For 12 | Wilson County, TN</title>
 <style>
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(rgba(11,45,77,0.85), rgba(11,45,77,0.85)), url('campaign-image.png') center/cover no-repeat;
-
-}
-
-header {
-    background: #0b2d4d;
-    color: white;
-    padding: 12px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-shrink: 0;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-header a {
-    background: #f26522;
-    color: white;
-    padding: 8px 14px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    font-size: 14px;
+    background: linear-gradient(rgba(11,45,77,0.85), rgba(11,45,77,0.85)), url('campaign-img.png') center/cover no-repeat;
 }
 
 .hero {
@@ -48,10 +27,12 @@ header a {
     justify-content: center;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .hero-content {
     max-width: 700px;
+    padding: 20px;
 }
 
 .hero h2 {
@@ -101,33 +82,19 @@ footer {
     background: #111;
     color: white;
     text-align: center;
-    padding: 10px;
     font-size: 12px;
     flex-shrink: 0;
+    padding: 10px;
 }
-
 </style>
 </head>
 <body>
-
-<!-- <header>
-    <h1>BROACH FOR 12</h1>
-    <a href="https://secure.actblue.com/donate/chris-broach-1" target="_blank">Donate</a>
-</header> 
---> 
 
 <section class="hero">
     <div class="hero-content">
         <h2>Support the Campaign <span>Today</span></h2>
         <p>Focused on Wilson County • Real Community Solutions</p>
         <a class="donate-btn" href="https://secure.actblue.com/donate/chris-broach-1" target="_blank">Donate Now</a>
-
-       <!-- <div class="values">
-            <div class="value-box">People First</div>
-            <div class="value-box">Local Experience</div>
-            <div class="value-box">Community Driven</div>
-        </div>
-        -->
     </div>
 </section>
 
